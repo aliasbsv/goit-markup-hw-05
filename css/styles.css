@@ -504,6 +504,11 @@ body {
   fill: #f4f4fd;
 }
 
+.footer-third {
+  display: flex;
+  flex-direction: column;
+}
+
 .subscribe {
   font-weight: 500;
   font-size: 16px;
@@ -524,7 +529,7 @@ body {
 
 .input-subscribe {
   border: 1px solid #fff;
-  background: #2e2f42;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
