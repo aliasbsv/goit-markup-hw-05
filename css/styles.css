@@ -431,6 +431,7 @@ body {
 .footer_cont {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .foot-left {
@@ -461,9 +462,12 @@ body {
   max-width: 264px;
 }
 
-.soc-block {
-  margin-right: 80px;
+.drt {
+  display: flex;
 }
+/* .soc-block {
+  margin-right: 80px;
+} */
 
 .soc-title {
   font-weight: 500;
