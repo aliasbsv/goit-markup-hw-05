@@ -702,7 +702,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-check {
+.modal-form-wrapper {
   margin-bottom: 16px;
 }
 
@@ -719,13 +719,36 @@ body {
   resize: none;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2e2f42;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-textarea:focus {
   border-color: #4d5ae5;
 }
+.modal-form-check {
+  margin-bottom: 24px;
+}
 
-.modal-form-textarea::placeholder {
-  color: rgba(46, 47, 66, 0.4);
+.modal-form-check-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-form-submit-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
